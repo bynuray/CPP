@@ -80,6 +80,5 @@ This repository is for **me**—a space to reflect, track, and stay disciplined 
 - Always celebrate small wins—they lead to bigger victories!
 
 ---
-
 > *"Code is like humor. When you have to explain it, it’s bad."*  
 > — Cory House
