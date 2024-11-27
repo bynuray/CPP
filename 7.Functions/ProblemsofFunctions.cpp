@@ -201,3 +201,152 @@
 
 // Sample Input: 255
 // Sample Output: 11111111
+
+// 138. Prime Number Checker
+// Write a C++ program that takes a positive number as input and checks whether it is a prime number using a function. Display the result.
+
+// Input Format: A single positive integer.
+// Constraints: The input number should be a positive integer.
+// Output Format: A message indicating whether the entered number is a prime number or not.
+
+// Sample Input:
+// 5
+// Sample Output:
+// The number 5 is a prime number
+
+// Sample Input:
+// 12
+// Sample Output :
+// The number 12 is not a prime number
+
+// Sample Input:
+// 17
+// Sample Output:
+// The number 17 is a prime number
+
+// 139. Largest Element Finder
+// Write a C++ program that takes an array of integers as input and finds the largest element in the array using a function. Display the result.
+
+// Input Format: An array of integers. The length of the array 'n' (1 <= n <= 100). n integers separated by spaces.
+// Constraints: Each integer in the array is within the range [-1000, 1000].
+// Output Format: A message indicating the largest element in the array.
+
+// Sample Input:
+// 9
+// 1 2 3 4 10 5 6 7 9
+// Sample Output:10
+
+// Sample Input:
+// 5
+// -5 -10 -1 -3 -2
+// Sample Output: -1
+
+// Sample Input:
+// 3
+// 7 7 7
+// Sample Output:7
+
+// 140. Armstrong and Perfect Number CheckerWrite a C++ program that takes a positive integer as input and checks whether it is an Armstrong number and whether it is a Perfect number using functions. Display the results for both checks.
+
+// Input Format: A single positive integer.
+// Constraints: none
+// Output Format: Two messages indicating whether the entered number is an Armstrong number and whether it is a Perfect number.
+
+// Sample Input: 371
+// Sample Output:
+// The 371 is an Armstrong number.
+// The 371 is not a Perfect number.
+
+// Sample Input: 28
+// Sample Output:
+// The 28 is not an Armstrong number.
+// The 28 is a Perfect number.
+
+// Sample Input: 1634
+// Sample Output:
+// The 1634 is an Armstrong number.
+// The 1634 is not a Perfect number.
+
+
+// 141. Perfect Number Finder
+// Write a C++ program that takes a range as input and finds all the perfect numbers within 
+// that range using a function. Display the list of perfect numbers.
+
+// Input Format:Two integers representing the range: "from" and "to."
+// Constraints: none
+// Output Format: A message indicating the perfect numbers within the specified range.
+
+// Sample Input 0
+// 1 100
+// Sample Output 0
+// The perfect numbers between 1 to 100 are: 6 28
+
+// Sample Input 1
+//  1 50
+// Sample Output 1
+// The perfect numbers between 1 to 50 are: 6 28
+
+// Sample Input 2
+// 1 10000
+// Sample Output 2
+// The perfect numbers between 1 to 10000 are: 6 28 496 8128
+
+// 142. Anagram Checker
+// Write a C++ program that takes two strings as input and checks whether they are anagrams of each other using a function. Display the result.
+
+// Input Format: Two strings, separated by newlines.
+// Constraints: none
+// Output Format: A message indicating whether the two strings are anagrams or not.
+
+// Sample Input 0
+// anagram
+// nagaram
+// Sample Output 0
+// Anagram
+
+// Sample Input 1
+// DUSSTY
+// STUDYY
+// Sample Output 1
+// Not Anagram
+
+// Sample Input 2
+// dear
+// eabr
+// Sample Output 2
+// Not Anagram
+
+// Sample Input 3
+// spare
+// pears
+// Sample Output 3
+// Anagram
+
+// Sample Input 4
+// listen
+// silent
+// Sample Output 4
+// Anagram
+
+
+// 143. Sum Function with Default Arguments
+// Implement a C++ function named sum that can be called with 2, 3, or 4 arguments. Use default arguments to handle the cases when fewer arguments are provided. The function should calculate and return the sum of the provided arguments.
+
+// Input Format: The function takes 2, 3, or 4 integer arguments.
+// Constraints: none
+// Output Format: The function returns the sum of the provided arguments.
+
+// Sample Input 0
+// 10 15
+// Sample Output 0
+// 25
+
+// Sample Input 1
+// 10 15 25
+// Sample Output 1
+// 50
+
+// Sample Input 2
+// 10 15 25 30
+// Sample Output 2
+// 80
