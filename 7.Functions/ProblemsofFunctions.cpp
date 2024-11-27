@@ -1,0 +1,203 @@
+// https://www.hackerrank.com/contests/7-functions/challenges
+// 128.Sphere Volume Calculator
+// Write a C++ function that calculates the volume of a sphere. Given the radius as input, the function should output the volume of the sphere. 
+// The formula to calculate the volume of a sphere is (4/3) * π * r^3, where "r" is the radius of the sphere.
+
+// Input Format: A single floating-point number representing the radius of the sphere.
+// Constraints: The radius is a positive real number.
+// Output Format:Print the calculated volume of the sphere.
+
+// Sample Input: 6
+// Sample Output: The volume of a sphere is: 904.779
+
+// Sample Input: 3.5
+// Sample Output:The volume of a sphere is: 179.594
+
+// Sample Input:10
+// Sample Output: The volume of a sphere is: 4188.79
+
+
+// 129.Cube Volume Calculator
+
+// Write a C++ function that calculates the volume of a cube and a program that utilizes this function. 
+// The user will input the side length of the cube, and your program should output the volume.
+// double calculateCubeVolume(double sideLength)
+
+// Input Format:A single integer representing the side length of the cube.
+
+// Constraints:1 <= sideLength <= 100
+
+// Output Format:A single floating-point number representing the volume of the cube.
+
+// Sample Input: 5
+// Sample Output: 125
+
+// Sample Input: 3
+// Sample Output: 27
+
+// Sample Input: 10
+// Sample Output: 1000
+
+// 130. Rectangle Area and Perimeter
+// You are given the length and width of a rectangle. Write a C++ program to calculate its area and perimeter.
+
+// Input Format: Two integers, length and width, separated by spaces.
+
+// Constraints: 1 <= length, width <= 100
+
+// Output Format: The area of the rectangle. The perimeter of the rectangle.
+
+// Sample Input: 5 8
+// Sample Output:
+// The area of the rectangle is: 40
+// The perimeter of the rectangle is: 26
+
+// Sample Input: 10 15
+// Sample Output:
+// The area of the rectangle is: 150
+// The perimeter of the rectangle is: 50
+
+// Sample Input: 3 3
+// Sample Output:
+// The area of the rectangle is: 9
+// The perimeter of the rectangle is: 12
+
+// 131. Kilometers to Miles Conversion
+// A single floating-point number representing the speed in kilometers per hour.
+
+// Input Format: A message indicating the conversion result with 4 decimal places.
+// Constraints: 0 <= speed <= 1000
+// Output Format: A message indicating the conversion result with 4 decimal places.
+
+// Sample Input: 25
+// Sample Output: 15.5343 Miles/hr
+
+// Sample Input: 50
+// Sample Output: 31.0686 Miles/hr
+
+// Sample Input: 10.5
+// Sample Output: 6.5244 Miles/hr
+
+// 132.Total and Average of Four Numbers
+// Write a C++ function to calculate the total and average of four numbers. Divide the total by 4 to find the average.
+
+// Input Format: Two pairs of integers, each separated by a space. The first pair represents the first two numbers, and the second pair represents the last two numbers.
+// Constraints: none
+// Output Format: Two lines: The total of four numbers. The average of four numbers with two decimal places.
+
+// Sample Input :
+// 25 20
+// 15 25
+// Sample Output:
+// The total of four numbers is : 85
+// The average of four numbers is : 21.25
+
+// Sample Input:
+// 10 5
+// 30 40
+// Sample Output:
+// The total of four numbers is : 85
+// The average of four numbers is : 21.25
+
+// Sample Input:
+// 0 0
+// 0 0
+// Sample Output:
+// The total of four numbers is : 0
+// The average of four numbers is : 0
+
+// 133.Character Code (ASCIIUnicode) Printer
+// Write a C++ function that takes a character as input and prints its ASCII code (or Unicode code) and the corresponding character for that code.
+
+// Input Format:A single character.
+// Constraints: none
+// Output Format: Two lines: The ASCII (or Unicode) value of the input character. The character represented by the ASCII (or Unicode) value.
+
+// Sample Input: a
+// Sample Output:
+// The ASCII value of a is: 97
+// The character for the ASCII value 97 is: a
+
+// Sample Input: $
+// Sample Output:
+// The ASCII value of $ is: 36
+// The character for the ASCII value 36 is: $
+
+// Sample Input: !
+// Sample Output:
+// The ASCII value of ! is: 33
+// The character for the ASCII value 33 is: !
+
+// 134.Centimeter to Meter and Kilometer Converter
+// Write a C++ function that takes a distance in centimeters as input and converts it into meters and kilometers.
+
+// Input Format:A single integer representing the distance in centimeters.
+// Constraints: none
+// Output Format: Two lines: The distance in meters. The distance in kilometers with one decimal place.
+
+// Sample Input 0
+// 250000
+// Sample Output 0
+// The distance in meter is: 2500
+// The distance in kilometer is: 2.5
+
+// Sample Input 1
+// 10000
+// Sample Output 1
+// The distance in meter is: 100
+// The distance in kilometer is: 0.1
+
+// Sample Input 2
+// 5000000
+// Sample Output 2
+// The distance in meter is: 50000
+// The distance in kilometer is: 50
+
+// 135. Even-Odd Checker
+// Write a C++ program that takes a number as input and checks whether it's even or odd using a function. Display the result.
+
+// Input Format: A single integer.
+// Constraints: A message indicating whether the entered number is even or odd.
+// Output Format: A message indicating whether the entered number is even or odd.
+
+// Sample Input: 5
+// Sample Output: The entered number is odd
+
+// Sample Input: 6
+// Sample Output: The entered number is even
+
+
+// 136. Series Sum with Factorials
+// Write a C++ program that takes a number 'n' as input and calculates the sum of the series 
+// 1!/1 + 2!/2 + 3!/3 + 4!/4 + ... + n!/n using two different functions: one for calculating factorial and another for summing the series.
+
+// Input Format:A single integer 'n'.
+// Constraints: none
+// Output Format: The sum of the series with an appropriate message.
+
+// Sample Input: 5
+// Sample Output: 34
+
+// Explanation 
+// 1!/1 + 2!/2 + 3!/3 + 4!/4 + 5!/5 = 1 + 1 + 2 + 6 + 24 = 34
+
+// Sample Input: 6
+// Sample Output: 154
+
+
+
+// 137. Decimal to Binary Converter
+// Write a C++ program that takes a decimal number as input and converts it to a binary number using a function. Display the binary value.
+
+// Input Format:A single integer representing the decimal number.
+// Constraints:The input decimal number should be non-negative.
+// Output Format:A message indicating the binary value of the entered decimal number.
+
+// Sample Input: 65
+// Sample Output: 1000001
+
+// Sample Input: 12
+// Sample Output: 1100
+
+// Sample Input: 255
+// Sample Output: 11111111
