@@ -350,3 +350,80 @@
 // 10 15 25 30
 // Sample Output 2
 // 80
+
+// 144. Number Conversion Functions
+// Write three C++ functions: convertToHex, convertToBinary, and convertToOctal. 
+// Each function should take an integer as input and return a string representing the number 
+// in hexadecimal, binary, and octal formats, respectively.
+
+// // Function Signatures:
+// string convertToHex(int num);
+// string convertToBinary(int num);
+// string convertToOctal(int num);
+
+// Input Format: Each function takes an integer as input.
+// Constraints: none
+// Output Format: Each function returns a string representing the input number in the specified format.
+
+// Sample Input 0
+// 987
+// Sample Output 0
+// Bin: 1111011011
+// Hex: 3DB
+// Oct: 1733
+
+// Sample Input 1
+// 0
+// Sample Output 1
+// Bin: 0
+// Hex: 0
+// Oct: 0
+
+// Sample Input 2
+// 65355
+// Sample Output 2
+// Bin: 1111111101001011
+// Hex: FF4B
+// Oct: 177513
+
+
+// 145. Number Conversion Function
+// Write a C++ function named convertTo that takes two parameters: a number and a format string ("hex", "oct", "bin"). 
+// The function should return the number converted to the specified format. If the format is not provided, it should default to decimal ("dec").
+
+// // Function Signature:
+// string convertTo(int num, const string& format = "dec");
+
+// Input Format: An integer representing the number to be converted. A string format parameter indicating the desired format.
+// Constraints: none
+// Output Format: The function returns a string representing the input number in the specified format.
+
+// Sample Input 0
+// 42
+// hex
+// Sample Output 0
+// 2A
+
+// Sample Input 1
+// 42
+// bin
+// Sample Output 1
+// 101010
+
+// Sample Input 2
+// 42
+// oct
+// Sample Output 2
+// 52
+
+// Sample Input 3
+// 123
+// oct
+// Sample Output 3
+// 173
+
+// Sample Input 4
+// 123
+// bin
+// Sample Output 4
+// 1111011

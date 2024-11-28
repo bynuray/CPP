@@ -39,7 +39,6 @@ using namespace std;
 
 // string DectoBinary2(int a){
 //     string arr="";
-//     string rev="";
 //     while(a>0){
 //        int con=a%2;
 //     a/=2;
